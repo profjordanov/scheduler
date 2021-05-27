@@ -1,0 +1,59 @@
+﻿@model Dictionary<DateTime, IEnumerable<Training>>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Тренировки:</h1>
+
+<p>
+    <a asp-action="Create">Добави</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Име
+            </th>
+            <th>
+                Дата/Час
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            @for (var i = 0; i < Model.Count; i++)
+            {
+                @if (i == 0)
+                {
+                    <th>Днес: @Model.ElementAt(i).Key.ToString("d")</th>
+                }
+                else if (i == 1)
+                {
+                    <th>Утре: @Model.ElementAt(i).Key.ToString("d")</th>
+                }
+                else
+                {
+                    <th>@Model.ElementAt(i).Key.ToString("d")</th>
+                }
+                @foreach (var item in Model.ElementAt(i).Value)
+                {
+                <tr>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateTime)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Промени</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Изтрий</a>
+                    </td>
+                </tr>
+                }
+            }
+            </tr>
+        </tbody>
+    </table>
