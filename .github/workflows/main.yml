@@ -1,9 +1,10 @@
-name: Build and deploy ASP.Net Core app to Azure Web App - jelev
+name: Build Web App
 
 on:
   push:
     branches:
       - main
+      - profjordanov-patch-1
   workflow_dispatch:
 
 jobs:
@@ -19,10 +20,10 @@ jobs:
         dotnet-version: '5.0.x'
 
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build Scheduler.sln --configuration Release
 
     - name: dotnet publish
-      run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+      run: dotnet publish Scheduler.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
