@@ -9,5 +9,5 @@ Ready to use, .NET MVC based, weekly scheduler for trainings.
 - Home
 ![home-screeen](./Scheduler.Docs/Home.JPG)
 
--Home on mobile
+- Home on mobile
 ![Home-on-phone](./Scheduler.Docs/Home-on-phone.JPG)
