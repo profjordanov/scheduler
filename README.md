@@ -6,8 +6,12 @@ Ready to use, .NET MVC based, weekly scheduler for trainings.
 [![TravisBuildStatus](https://travis-ci.com/profjordanov/scheduler.svg?branch=main)](https://travis-ci.com/profjordanov/scheduler)
 
 ## Screens
+
 - Home
 ![home-screeen](./Scheduler.Docs/Home.JPG)
 
 - Home on mobile
 ![Home-on-phone](./Scheduler.Docs/Home-on-phone.JPG)
+
+- Create
+![create](./Scheduler.Docs/create.JPG)
