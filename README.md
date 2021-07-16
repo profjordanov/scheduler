@@ -6,6 +6,7 @@ Ready to use, .NET MVC based, weekly scheduler for trainings.
 - GitHub Pipelines
 ![GitHubBuildStatus](https://github.com/profjordanov/scheduler/actions/workflows/main.yml/badge.svg)
 
+- Travis CI 
 [![TravisBuildStatus](https://travis-ci.com/profjordanov/scheduler.svg?branch=main)](https://travis-ci.com/profjordanov/scheduler)
 
 ## Screens
