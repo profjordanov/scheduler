@@ -7,3 +7,11 @@ services:
     build:
       context: .
       dockerfile: Scheduler.Web/Dockerfile
+
+  scheduler.logging:
+    container_name: schedulerlogging
+    image:  profjordanov/schedulerlogging:latest
+    build:
+      context: .
+      dockerfile: Scheduler.Logging/Dockerfile
+
