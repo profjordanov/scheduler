@@ -6,6 +6,9 @@ Ready to use, .NET MVC based, weekly scheduler for trainings.
 
 Scheduler will be responsible for managing personal trainings (when and who will be on the training )
 
+## System Requirements
+- Web-based application
+
 ## Continuous Integration Tools
 - GitHub Pipelines
 ![GitHubBuildStatus](https://github.com/profjordanov/scheduler/actions/workflows/main.yml/badge.svg)
