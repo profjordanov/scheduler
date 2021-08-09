@@ -8,6 +8,7 @@ Scheduler will be responsible for managing personal trainings (when and who will
 
 ## System Requirements
 - Web-based application
+- Performs CRUD operations on the trainings
 
 ## Continuous Integration Tools
 - GitHub Pipelines
