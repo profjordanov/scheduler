@@ -11,6 +11,9 @@ Scheduler will be responsible for managing personal trainings (when and who will
 - Performs CRUD operations on the trainings
 - Manages vacation days
 
+##  Non-Functional Requirements
+- Classic data-driven application
+
 ## Continuous Integration Tools
 - GitHub Pipelines
 ![GitHubBuildStatus](https://github.com/profjordanov/scheduler/actions/workflows/main.yml/badge.svg)
