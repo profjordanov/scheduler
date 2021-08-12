@@ -9,7 +9,6 @@ Scheduler will be responsible for managing personal trainings (when and who will
 ## System Requirements
 - Web-based application
 - Performs CRUD operations on the trainings
-- Manages vacation days
 
 ##  Non-Functional Requirements
 - Classic data-driven application
