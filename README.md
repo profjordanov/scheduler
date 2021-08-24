@@ -11,7 +11,8 @@ Scheduler will be responsible for managing personal trainings (when and who will
 - Performs CRUD operations on the trainings
 
 ##  Non-Functional Requirements
-- Classic data-driven application
+- Classic data-driven 
+- There is not a lot of data moving around.
 
 ## Continuous Integration Tools
 - GitHub Pipelines
