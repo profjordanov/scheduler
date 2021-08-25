@@ -12,7 +12,7 @@ Scheduler will be responsible for managing personal trainings (when and who will
 
 ##  Non-Functional Requirements
 - Classic data-driven 
-- There is not a lot of data moving around.
+- There are not a lot of users
 
 ## Continuous Integration Tools
 - GitHub Pipelines
