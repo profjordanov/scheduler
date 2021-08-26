@@ -15,12 +15,12 @@ Scheduler will be responsible for managing personal trainings (when and who will
 - There are not a lot of users
 
 ### Questions SA needs to ask:
-• “How many concurrent users do you expect?”
-• “How many trainings are you going to manage?”
+- “How many concurrent users do you expect?”
+- “How many trainings are you going to manage?”
 
 And these are the answers we got from the clients:
-• 10 concurrent users. It should not be a problem.
-• 250 training. Not an issue. 
+- 10 concurrent users. It should not be a problem.
+- 250 training. Not an issue. 
 
 ## Continuous Integration Tools
 - GitHub Pipelines
